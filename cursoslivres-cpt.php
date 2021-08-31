@@ -61,7 +61,7 @@ function create_cursoslivressatc_cpt() {
         'exclude_from_search' => false,
         'show_in_rest' => true,
         'publicly_queryable' => true,
-        'capability_type' => 'post',i
+        'capability_type' => 'post',
     );
     register_post_type('cursos_livres_satc', $args );
 } 
